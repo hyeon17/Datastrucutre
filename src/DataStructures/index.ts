@@ -1,0 +1,31 @@
+import { LinkedListTest } from './00_LinkedList/test';
+import { DoubleLinkedListTest } from './01_DoubleLinkedList/test';
+import { ArrayStackTest } from './02_Stack/array/test';
+import { StackTest } from './02_Stack/linkedList/test';
+import { ArrayQueueTest } from './03_queue/array/test';
+import { LinkedListQueueTest } from './03_queue/linkedList/test';
+import { DequeTest } from './04_deque/test';
+import { HashTableTest } from './05_HashTable/test';
+import { HashSetTest } from './06_HashSet/test';
+// import {Heap } from `./07_heap`
+
+console.log('======= 링크드리스트 테스트 ======');
+LinkedListTest();
+console.log('======= 더블 링크드리스트 테스트 ======');
+DoubleLinkedListTest();
+console.log('======= 배열 스택 테스트 ======');
+ArrayStackTest();
+console.log('======= 링크드리스트 스택 테스트 ======');
+StackTest();
+console.log('======= 배열 큐 테스트 ======');
+ArrayQueueTest();
+console.log('======= 링크드리스트 큐 테스트 ======');
+LinkedListQueueTest();
+console.log('======= 덱 테스트 ======');
+DequeTest();
+console.log('======= 해시테이블 테스트 ======');
+HashTableTest();
+console.log('======= 해시셋 테스트 ======');
+HashSetTest();
+console.log(`========== 힙 테스트 ==============`);
+// Heap();
